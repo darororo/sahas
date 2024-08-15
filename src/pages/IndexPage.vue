@@ -1,14 +1,12 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="icons/magic-cat.png"
-      style="width: 200px; height: 200px"
-    />
+    <HeroComponent />
   </q-page>
 </template>
 
 <script setup>
+import HeroComponent from "src/components/HeroComponent.vue";
+
 defineOptions({
   name: "IndexPage",
 });

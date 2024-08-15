@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh lpr lff">
+  <q-layout view="hHh LpR fff">
     <q-header elevated class="bg-white">
       <q-toolbar class="flex flex-center">
         <img
@@ -13,7 +13,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer bordered class="bg-grey-8 text-white">
+    <q-footer bordered class="bg-footer-bg text-white">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
